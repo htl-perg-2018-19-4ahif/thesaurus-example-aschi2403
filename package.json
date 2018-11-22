@@ -1,0 +1,26 @@
+{
+  "name": "thesaurus-example-aschi2403",
+  "version": "1.0.0",
+  "description": "Your job is to implement a command-line [Thesaurus](https://en.wikipedia.org/wiki/Thesaurus) tool in Node.js using TypeScript. Use the [openthesaurus.de](https://www.openthesaurus.de/) word database as the data source for your tool. You can download the database in text format [here](https://www.openthesaurus.de/export/OpenThesaurus-Textversion.zip).",
+  "main": "index.js",
+  "dependencies": {
+    "@types/node": "^10.12.10",
+    "cpx": "^1.5.0",
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc thesaurus.ts && cpx thesaurus.js build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htl-perg-2018-19-4ahif/thesaurus-example-aschi2403.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htl-perg-2018-19-4ahif/thesaurus-example-aschi2403/issues"
+  },
+  "homepage": "https://github.com/htl-perg-2018-19-4ahif/thesaurus-example-aschi2403#readme"
+}
