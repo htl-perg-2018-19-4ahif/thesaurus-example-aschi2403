@@ -48,6 +48,10 @@ class Thesaurus {
                 //console.log(temp);
             }
         }
+        if(matches.length == 0) {
+            console.log('No matches found');
+            return;
+        }
         for (let i = 0; i < matches.length; i++) {
             console.log(matches[i]);
         }
